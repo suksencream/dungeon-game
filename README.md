@@ -242,26 +242,3 @@ python -m pytest tests/test_astar.py
 # Run performance benchmarks
 python tests/benchmark_algorithms.py
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-algorithm`)
-3. Implement your changes with proper documentation
-4. Add tests for new algorithms
-5. Submit a pull request
-
-### Adding New Algorithms
-To add a new search algorithm:
-1. Implement the algorithm in `src/algorithms/`
-2. Add corresponding tests in `tests/`
-3. Update the algorithm selector in the main game loop
-4. Document the algorithm's properties and use cases
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-*This project serves as both an entertaining game and an educational tool for understanding heuristic search algorithms in practical applications.*
